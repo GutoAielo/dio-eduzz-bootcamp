@@ -1,3 +1,9 @@
+:root {
+  //--cor-base: #454547;
+  --pad-l: 0.937rem;
+  --marg-b: 0.937rem;
+}
+
 body {
   background-color: lightgrey;
   font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -19,11 +25,11 @@ body {
 #title {
   font-weight: 16rem;
   text-transform: uppercase;
-  padding-left: 0.937rem;
+  padding-left: var(--pad-l);
 }
 
 .subtitle {
-  padding-left: 0.937rem;
+  padding-left: var(--pad-l);
 }
 
 a {
@@ -35,32 +41,32 @@ a {
   font-size: 1rem;
   font-style: italic;
   marging: 0;
-  margin-bottom: 0.937rem;
+  margin-bottom: var(--marg-b);
 }
 
 .post {
   background-color: #ffff;
   padding: 0.625rem;
   border: 0.187rem solid black;
-  margin-bottom: 0.937rem;
+  margin-bottom: var(--marg-b);
   border-radius: 0.312rem;
 }
 
 .post_content {
   maging: 0;
-  margin-bottom: 0.937rem;
+  margin-bottom: var(--marg-b);
   text-transform: capitalize;
   text-align: justify;
 }
 
 .post_image {
-  margin-bottom: 0.937rem;
+  margin-bottom: var(--marg-b);
   width: 100%;
 }
 
 .contact_list {
   list-style-type: none;
-  padding-left: 0.937rem;
+  padding-left: var(--pad-l);
 }
 
 .contact_list li a {
